@@ -31,7 +31,7 @@ Ejecución
 
 **Generacion de llaves**
 
-```bash
+```shell
 src $ ./genera-llaves hola123
 clave: hola123
 
@@ -90,10 +90,11 @@ calculando mensaje cifrado:
 9: o -> 111 = 11110110 -> 114966
 
 mensaje cifrado: 64273,114966,88985,61779,24232,110817,88003,93134,64659,114966
+```
 
 **Descifrado**
 
-```shell
+```bash
 src $ ./descifra hola123 48,256,408,825,1596,3150,6449,12739 64273,114966,88985,61779,24232,110817,88003,93134,64659,114966
 Clave: hola123
 Llave privada: 48,256,408,825,1596,3150,6449,12739
