@@ -9,16 +9,17 @@ El objetivo de este proyecto es implementar en [lenguaje
 C](http://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)) el
 [sistema de cifrado
 Merkle-Hellman](http://es.wikipedia.org/wiki/Criptosistema_de_Merkle-Hellman)
-con fines didacticos.
+con fines didácticos.
 
-Para más información consulta el documento [Implementación del sistema
-de cifrado Merkle-Hellman](doc/implementacion_merkle-hellman.pdf) que
-acompaña a este proyecto.
+Para más información sobre los sistemas de cifrado asimétrico consulta
+el documento [Implementación del sistema de cifrado
+Merkle-Hellman](doc/implementacion_merkle-hellman.pdf) que acompaña a
+este proyecto.
 
 Compilación
 -----------
 
-```shell
+```bash
 src $ make
 cc -lm -pedantic -ansi   -c -o comun.o comun.c
 cc -lm -pedantic -ansi    genera-llaves.c comun.o genera-llaves.h   -o genera-llaves
@@ -29,9 +30,9 @@ cc -lm -pedantic -ansi    descifra.c comun.o descifra.h   -o descifra
 Ejecución
 ---------
 
-**Generacion de llaves**
+**Generación de llaves**
 
-```shell
+```bash
 src $ ./genera-llaves hola123
 clave: hola123
 
@@ -72,7 +73,7 @@ llave publica: 179,3208,6953,8352,3627,6830,10697,554
 
 **Cifrado**
 
-```shell
+```bash
 src $ ./cifra "hola mundo" 1319,15715,24232,1512,24326,24712,4149,21832
 mensaje: hola mundo
 llave publica: 1319,15715,24232,1512,24326,24712,4149,21832
