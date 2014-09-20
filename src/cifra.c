@@ -1,5 +1,5 @@
 /*
-  Copyright 2008-2010 Manuel Rábade <manuel@rabade.net>
+  Copyright 2008-2010 Manuel Rodrigo Rábade García <manuel@rabade.net>
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -33,6 +33,7 @@ int main (int argc, char * argv[]) {
   
   if (argc != 3) {
     printf("error: argumentos incorrectos!\n");
+    return 0;
   }
 
   tam = strlen(argv[1]);
