@@ -11,10 +11,10 @@ C](http://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)) el
 Merkle-Hellman](http://es.wikipedia.org/wiki/Criptosistema_de_Merkle-Hellman)
 con fines didácticos.
 
-Para más información sobre los sistemas de cifrado asimétrico consulta
-el documento [Implementación del sistema de cifrado
-Merkle-Hellman](doc/implementacion_merkle-hellman.pdf) que acompaña a
-este proyecto.
+Para más información puedes consultar el documento [Implementación del
+sistema de cifrado
+Merkle-Hellman](doc/implementacion_merkle-hellman.pdf) que describe
+formalmente este proyecto.
 
 Compilación
 -----------
